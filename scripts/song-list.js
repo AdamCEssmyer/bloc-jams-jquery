@@ -11,7 +11,7 @@
           </button>
           </td>
          <td>${song.title}</td>
-         <td>${song.duration}</td>
+         <td>${player.formatTime(song.duration)}</td>
         </tr>
      `);
 
